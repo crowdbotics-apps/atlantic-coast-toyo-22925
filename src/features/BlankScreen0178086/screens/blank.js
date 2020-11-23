@@ -61,6 +61,12 @@ export class Blank extends React.Component {
         style={styles.Button_12}
         onPress={() => this.props.navigation.navigate("BlankScreen4178090")}
       />
+      <Button
+        title="INVOICE HISTORY"
+        color="#c60c0c"
+        style={styles.Button_13}
+        onPress={() => alert("Pressed!")}
+      />
     </View>
   )
 }
@@ -195,6 +201,57 @@ const styles = StyleSheet.create({
     fontFamily: "Roboto-Bold",
     borderRadius: 8
   },
+
+  View_1: {},
+  Button_3: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_5: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontWeight: "bold",
+    borderRadius: 8
+  },
+
+  Button_7: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_9: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontWeight: "bold",
+    borderRadius: 8
+  },
+
+  Button_11: {
+    width: "85%",
+    paddingLeft: 0,
+    paddingRight: 0,
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_12: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
   View_1: {},
   Button_3: {
     width: "85%",
@@ -234,6 +291,13 @@ const styles = StyleSheet.create({
     borderRadius: 8
   },
   Button_12: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+  Button_13: {
     width: "85%",
     alignSelf: "flex-end",
     color: "#ffffff",
