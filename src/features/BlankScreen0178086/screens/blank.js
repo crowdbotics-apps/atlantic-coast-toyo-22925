@@ -29,9 +29,10 @@ export class Blank extends React.Component {
         onPress={() => alert("Pressed!")}
       />
       <Button
-        title="Press me!"
+        title="RENTAL REQUEST"
+        color="#c60c0c"
         style={styles.Button_5}
-        onPress={() => alert("Pressed!")}
+        onPress={() => this.props.navigation.navigate("BlankScreen6178092")}
       />
       <Button
         title="PARTS REQUEST"
@@ -80,9 +81,43 @@ const styles = StyleSheet.create({
     fontFamily: "Roboto-Bold",
     borderRadius: 8
   },
+
   View_1: {},
   Button_3: { width: "85%", alignSelf: "flex-end" },
   Button_5: { width: "85%", alignSelf: "flex-end" },
+  Button_7: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_9: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontWeight: "bold",
+    borderRadius: 8
+  },
+
+  Button_11: {
+    width: "85%",
+    paddingLeft: 0,
+    paddingRight: 0,
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+  View_1: {},
+  Button_3: { width: "85%", alignSelf: "flex-end" },
+  Button_5: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    borderRadius: 8
+  },
   Button_7: {
     width: "85%",
     alignSelf: "flex-end",
