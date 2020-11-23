@@ -23,6 +23,17 @@ export class Blank extends React.Component {
   state = {}
   render = () => (
     <View>
+      <Text style={styles.Text_15}>
+        Welcome to the ACT app. This is your hub for information regarding your
+        equipment.
+      </Text>
+      <Image
+        source={{
+          uri:
+            "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/ACT_Main_Logo_Outline-no-shadow.png"
+        }}
+        style={styles.Image_20}
+      />
       <Button
         title="INVOICE HISTORY"
         color="#c60c0c"
@@ -252,7 +263,73 @@ const styles = StyleSheet.create({
     fontFamily: "Roboto-Bold",
     borderRadius: 8
   },
+
   View_1: {},
+  Button_3: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_5: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontWeight: "bold",
+    borderRadius: 8
+  },
+
+  Button_7: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_9: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontWeight: "bold",
+    borderRadius: 8
+  },
+
+  Button_11: {
+    width: "85%",
+    paddingLeft: 0,
+    paddingRight: 0,
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_12: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_13: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+  View_1: {},
+  Text_15: { textAlign: "center" },
+  Image_20: {
+    width: "81%",
+    paddingTop: 15,
+    paddingBottom: 15,
+    alignSelf: "center"
+  },
   Button_3: {
     width: "85%",
     alignSelf: "flex-end",
