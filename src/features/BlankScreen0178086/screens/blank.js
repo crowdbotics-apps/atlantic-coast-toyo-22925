@@ -73,7 +73,7 @@ export class Blank extends React.Component {
         onPress={() => this.props.navigation.navigate("BlankScreen4178090")}
       />
       <Button
-        title="INVOICE HISTORY"
+        title="GENERAL INQUIRY"
         color="#c60c0c"
         style={styles.Button_13}
         onPress={() => alert("Pressed!")}
@@ -265,6 +265,73 @@ const styles = StyleSheet.create({
   },
 
   View_1: {},
+  Button_3: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_5: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontWeight: "bold",
+    borderRadius: 8
+  },
+
+  Button_7: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_9: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontWeight: "bold",
+    borderRadius: 8
+  },
+
+  Button_11: {
+    width: "85%",
+    paddingLeft: 0,
+    paddingRight: 0,
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_12: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  Button_13: {
+    width: "85%",
+    alignSelf: "flex-end",
+    color: "#ffffff",
+    fontFamily: "Roboto-Bold",
+    borderRadius: 8
+  },
+
+  View_1: {},
+  Text_15: { textAlign: "center" },
+  Image_20: {
+    width: "81%",
+    paddingTop: 15,
+    paddingBottom: 15,
+    alignSelf: "center"
+  },
+
   Button_3: {
     width: "85%",
     alignSelf: "flex-end",
